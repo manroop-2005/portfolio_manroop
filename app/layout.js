@@ -13,7 +13,7 @@ import { personalData } from "@/utils/data/personal-data";
 export const metadata = {
   title: "MANROOP SINGH",
   description:
-    "This is the portfolio of MANROOP SINGH. A full stack developer and a self taught developer, love to learn new things and  always open to collaborating with others.  A quick learner and  always looking for new challenges.",
+    "This is the portfolio of MANROOP SINGH. A full stack developer and a self taught developer, love to learn new things and  always open to collaborating with others.  A quick learner and always looking for new challenges.",
   image:`${personalData.profile}`
   };
 
