@@ -1,14 +1,12 @@
-"use client"
-
-
-
+'use client'
 import { useEffect } from 'react';
 
 const GlowCard = ({ children , identifier}) => {
   useEffect(() => {
+    
     let CONTAINER;
     let CARDS;
-    console.log(document);
+   
     if (typeof document !== 'undefined') {
       CONTAINER = document.querySelector(`.glow-container-${identifier}`);
       CARDS = document.querySelectorAll(`.glow-card-${identifier}`);
